@@ -9,7 +9,7 @@ import collections
 import sqlite3 as lite
 import requests
 
-hostname = "fronius"
+hostname = "192.168.1.47"
 
 data = collections.OrderedDict()
 current_time_string = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
